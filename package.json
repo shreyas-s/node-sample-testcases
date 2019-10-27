@@ -1,0 +1,21 @@
+{
+  "name": "sample_nodejs_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests ./**/*.tests.js"
+  },
+  "keywords": [
+    "tests",
+    "supertest",
+    "expect",
+    "mocha"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "mocha": "^6.2.2"
+  }
+}
