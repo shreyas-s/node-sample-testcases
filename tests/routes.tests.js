@@ -1,11 +1,11 @@
 
 const request = require('supertest');
-const routeApp = require('./../routes');
+const routeApp = require('./../index');
 const expect = require('expect');
 
 describe('GET /user', function() {
     it('responds with json', function(done) {
-      request(routeApp.app)
+      request(routeApp)
         .get('/user')
         .set('Accept', 'application/json')
         .expect('Content-Type', /json/)
